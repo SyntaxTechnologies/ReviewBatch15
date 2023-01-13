@@ -8,7 +8,6 @@ public class SwitchDemo {
         World Cup:
         and provide winners
          */
-
         int worldCup = 2014;
 
         switch (worldCup) {

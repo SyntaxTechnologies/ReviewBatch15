@@ -50,7 +50,15 @@ default:
         break;
 }
 
+---------------------------------------------------------------------------
 
+Loop - repeat block of code based on the condition
 
+4 loops in JAVA:
+USE while you don't know how many times you will repaeat the code
+while
+do while
 
-Loop
+USE for loop when you know in advance how many times you will repeat the code
+for
+for each/advanced for loop/ enhanced for loop
