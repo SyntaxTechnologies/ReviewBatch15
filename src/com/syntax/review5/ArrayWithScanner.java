@@ -17,8 +17,6 @@ public class ArrayWithScanner {
             System.out.println("Please enter name");
             name[i]=scan.next();
         }
-
-
         // using loop below we can retrieve element
         // enhanced for loop work with variable
         for(String n:name){
