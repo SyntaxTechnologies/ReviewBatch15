@@ -33,8 +33,5 @@ public class MoreLoops {
                 }
             }
         }
-
-        //HW create a digital clock
-        // it should start printing 00:00 and end 23:59
     }
 }
