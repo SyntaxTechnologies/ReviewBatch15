@@ -42,7 +42,7 @@ public class Garden {
         flower2.bloom();
         flower2.grow();
         flower2.smell();
-        //flower2.stinks error - since method is not defined in the flower class
+        //flower2.stinks(); error - since method is not defined in the flower class
 
         Flower flower3=new Flower();
 
@@ -52,6 +52,7 @@ public class Garden {
         }
 
         //System.out.println(i); error - since i is not visible outside of loop {}
+
 
     }
 }
