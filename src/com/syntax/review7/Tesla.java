@@ -16,6 +16,16 @@ public class Tesla extends Car{
     protected void haveAutopilot(){
         System.out.println(make+" have auto pilot "+autoPilot);
     }
+
+    public void start(){
+
+    }
+
+    //Overriding - is when we have same method name in 2 DIFFERENT Class (Parent - Child)
+    // In Overriding - INHERITANCE IS A MUST
+    //In Overriding method signature should be SAME
+
+    
 }
 
 

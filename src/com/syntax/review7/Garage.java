@@ -12,6 +12,6 @@ public class Garage {
 
         //from Tesla class - subclass
         tesla.haveAutopilot();
-
+        tesla.drive("Miami");
     }
 }

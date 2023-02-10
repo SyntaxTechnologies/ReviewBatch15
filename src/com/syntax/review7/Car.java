@@ -30,15 +30,37 @@ public class Car {
             2. by using different type of the parameters
             3. sequence
      */
-    void drive(String destination) {
+    protected String drive(String destination) {
         System.out.println(make+" drives to "+destination);
+        return destination;
     }
 
     void drive(int speed, String destination){
         System.out.println(make+" drive to "+destination+" with speed = "+speed);
     }
 
-    void drive(String destination, int speed){
+    public void drive(String destination, int speed){
         System.out.println(make+" drive to "+destination+" with speed = "+speed);
     }
+
+    //am I overloading
+    /*
+            private void drive(int wheel){}  - NO
+            by changing access modifiers we are not overloading !
+
+            String drive(String destination){ - NO
+            return destination;
+            }
+            we cannot overload methods by changing it is return type
+
+            In overloading methods signature MUST BE DIFFERENT
+            method signature involves name and parameters only !!!
+
+            In overloading we do not care about return type (can be changed)
+                    or access modifiers (can be different)
+     */
+
+
+
+
 }
