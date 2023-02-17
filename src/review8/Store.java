@@ -4,9 +4,7 @@ public class Store {
 
     public static void main(String[] args) {
 
-        Furniture chair=new Chair();
-        chair.assemble();
-        chair.comfort(); //runtime polymorphism
+
 
         Furniture table=new Table();
         table.comfort(); //runtime polymorphism
@@ -16,5 +14,15 @@ public class Store {
         t.assemble();
         t.comfort();
         t.buildTable("Wood");
+
+        Chair.breaks();
+        Furniture.breaks(); //static method called by using class name
+
+        Furniture chair=new Chair();
+        chair.assemble();
+        chair.comfort(); //runtime polymorphism
+        //proof that method breaks is not overriden
+        chair.breaks(); //since we are not overriding methods breaks will be executed from Parent
+                        //this is also not the right way to call static method
     }
 }

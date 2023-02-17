@@ -8,9 +8,26 @@ public class Furniture {
     public void comfort(){ //overriden
         System.out.println("Furniture needs to be comfortable");
     }
+
+    private void use(){
+        System.out.println("Furniture is used by humans");
+    }
+
+    public static void breaks(){
+        System.out.println("Furniture breaks");
+    }
 }
 
 class Chair extends Furniture{
+
+    // @Override we cannot override static method
+    public static void breaks(){
+        System.out.println("Chair can break too");
+    }
+    //we are not overriding method use here
+    private void use(){
+        System.out.println("Chair is used by humans to seat");
+    }
 
     public void comfort(){ //overriding
 
