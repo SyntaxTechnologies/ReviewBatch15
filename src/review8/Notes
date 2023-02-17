@@ -1,0 +1,7 @@
+Overriding - process when same method exist in super and subclass
+Why - to provide flexibility
+How to implement
+1. Inheritance
+2. same signature (name+parameters)
+3. same return type
+4. access modifiers -> overriding method must have same level of visibility or higher

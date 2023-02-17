@@ -14,6 +14,7 @@ public class Tesla extends Car{
     }
 
     protected void haveAutopilot(){
+
         System.out.println(make+" have auto pilot "+autoPilot);
     }
 
@@ -25,7 +26,7 @@ public class Tesla extends Car{
     // In Overriding - INHERITANCE IS A MUST
     //In Overriding method signature should be SAME
 
-    
+
 }
 
 
