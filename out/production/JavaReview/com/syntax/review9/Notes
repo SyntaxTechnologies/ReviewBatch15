@@ -1,0 +1,5 @@
+How to implement abstraction?
+    By using Abstract classes - we can achieve 0 to 100% abstraction
+    By using Interfaces - we can achieve 0 to 100% abstraction (before Java 8 it was only 100%)
+
+Interface in Java -
