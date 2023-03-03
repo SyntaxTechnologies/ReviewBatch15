@@ -13,6 +13,7 @@ public class ArrayListDemo {
         alist.add(12);
         alist.add(13);
         alist.add(14);
+        alist.add(3, 100);
 
         //how to find size of my arrayList
         int size=alist.size();

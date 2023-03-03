@@ -1,4 +1,4 @@
-package review8;
+package com.syntax.review8;
 
 public class Furniture {
     public void assemble(){

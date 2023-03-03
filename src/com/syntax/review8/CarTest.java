@@ -1,4 +1,4 @@
-package review8;
+package com.syntax.review8;
 
 import com.syntax.review7.Car;
 import com.syntax.review7.Tesla;

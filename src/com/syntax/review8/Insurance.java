@@ -1,4 +1,4 @@
-package review8;
+package com.syntax.review8;
 
 public abstract class Insurance {
 
