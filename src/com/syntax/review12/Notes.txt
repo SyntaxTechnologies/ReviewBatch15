@@ -1,0 +1,35 @@
+Exception:
+    Exception is an unwanted behaviour that occurs at runtime, and it terminates the
+    program abruptly
+There are three main types of issues in java programs:
+    1)Syntax error 2) logical error 3) exception(runtime errors)
+1) Syntax error:
+    Syntax error occur when we do not follow the java syntax for example
+    when we have to create a variable we must define its data type or use the var keyword
+    if we don't do this we will get a syntax error.Syntax errors occur a time
+    of writing code. They do not allow us to compile the code.
+    How to Fix: use your IDEs to find and fix these issues
+2) logical errors:
+    Logical error occur when the programs don't do things that are supposed to do.
+    for example, you write some code to click on a button but your program instead
+    clicks on a checkbox or on some other button. you write code to print numbers
+    from 0 to 10, but you program only prints 0 to 9.
+    How to Fix: use the debugger
+3) Exceptions(Runtime errors)
+   Are the errors which are produced at runtime. here code compiles fine but the
+   moment you try to run your program it throws errors.
+   How to Fix: Read the error and take the help from the class whose exception is
+   being thrown for example NullPointerException.
+=======================================================
+Exception Handling:
+    Exception handling is finding and fixing runtime errors and coming up with
+    ways to avoid these errors.
+
+There are some keywords and blocks of code that we can use to avoid these exception.
+1) we have 1)try 2) catch 3) finally 4) throws 5) throw.
+try-catch block:
+    helps us test the code by putting it inside the try block and if something goes wrong
+    java executes the associated catch block where we can put backup code, or we can notify the admins.
+
+
+
